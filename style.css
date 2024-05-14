@@ -1,0 +1,68 @@
+body{
+        background-color: rgb(255,229,180);
+        margin:0;
+        top:0;
+    }
+        #navBar{
+        background-color: rgb(245, 194, 98);
+        display:flex;
+      padding:20px;
+        justify-content:left;
+        }
+        a{
+            color:black;
+            padding-right:60px;
+            font-size:30px;
+            text-decoration:none;
+            transition-duration: 1s;
+        }
+        table, th, td {
+  border:1px solid black;
+}
+        a:hover{
+            color:red;
+            text-decoration:underline;
+        }
+        h1{
+            padding-top:20px;
+            margin:auto;
+            text-align:center;
+            font-size:30px;
+            color:brown;
+        }
+        p{
+            padding:20px;
+        font-size:20px;    
+        margin:auto;
+        text-align:center;
+        }
+        .home{
+            text-align:center;
+        }
+        .me{
+            text-decoration:underline;
+        }
+        ul{
+        display: inline-block;
+        text-align: left;
+        }
+        *{
+            font-size:20px;
+        }
+        .Submit{
+            cursor: pointer;
+            transition-duration: 0.4s;
+            background-color:white;
+        }
+        img{
+            margin:auto;
+            display: block;
+        }
+        table{
+                    margin:auto;
+        text-align:center;
+        }
+        .Submit:hover{
+             background-color: #555555;
+  color: white;
+        }
